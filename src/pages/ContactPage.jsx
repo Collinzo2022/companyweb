@@ -23,13 +23,13 @@ function ContactPage() {
                         </div>
                         <div className="info-card glass">
                             <h3>Phone</h3>
-                            <p>+1 (555) 123-4567</p>
-                            <p>+1 (555) 987-6543</p>
+                            <p>+1 (778) 601-3408</p>
                         </div>
                         <div className="info-card glass">
                             <h3>Office</h3>
-                            <p>123 Tech Street</p>
-                            <p>San Francisco, CA 94102</p>
+                            <p>1040 320 GRANVILLE STREET</p>
+                            <p>Vancouver, British Columbia V6C1S9</p>
+
                         </div>
                     </div>
                 </div>

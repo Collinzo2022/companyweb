@@ -201,3 +201,23 @@ button {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary-light);
 }
+
+.Toastify__toast--error {
+    background: rgba(220, 38, 38, 0.95); /* Darker red */
+    color: #fff;
+}
+
+.Toastify__toast--success {
+    background: rgba(16, 185, 129, 0.95); /* Different green */
+    color: #fff;
+}
+@keyframes toastSlideIn {
+    from {
+        transform: translateX(110%) scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0) scale(1);
+        opacity: 1;
+    }
+}

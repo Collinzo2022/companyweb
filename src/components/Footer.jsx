@@ -8,7 +8,7 @@ function Footer() {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-section">
-                        <h3 className="gradient-text">TechNova</h3>
+                        <h3 className="gradient-text">TeknovaSystem</h3>
                         <p>Innovative IT solutions for modern businesses.</p>
                         <div className="social-links">
                             <a href="#" aria-label="GitHub"><FaGithub /></a>
@@ -41,16 +41,16 @@ function Footer() {
                     <div className="footer-section">
                         <h4>Contact</h4>
                         <ul>
-                            <li>info@technova.com</li>
-                            <li>+1 (555) 123-4567</li>
-                            <li>123 Tech Street</li>
-                            <li>San Francisco, CA</li>
+                            <li>info@TeknovaSystem.com</li>
+                            <li>+1 (778) 601-3408</li>
+                            <li>1040 320 GRANVILLE STREET</li>
+                            <li>Vancouver, British Columbia V6C1S9</li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} TechNova Solutions. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} TeknovaSystem Solutions. All rights reserved.</p>
                 </div>
             </div>
         </footer>

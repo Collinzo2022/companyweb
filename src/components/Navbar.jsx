@@ -19,7 +19,7 @@ function Navbar() {
         <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
             <div className="container navbar-content">
                 <Link to="/" className="logo">
-                    <span className="gradient-text">TechNova</span>
+                    <span className="gradient-text">TeknovaSystem</span>
                 </Link>
 
                 <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>

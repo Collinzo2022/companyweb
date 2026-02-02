@@ -5,7 +5,7 @@ function AboutPage() {
         <div className="about-page">
             <section className="about-hero">
                 <div className="container">
-                    <h1>About <span className="gradient-text">TechNova</span></h1>
+                    <h1>About <span className="gradient-text">TeknovaSystem</span></h1>
                     <p>Innovating IT solutions since 2010</p>
                 </div>
             </section>
