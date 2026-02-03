@@ -3,6 +3,8 @@ import { FaPaperPlane, FaCheckCircle, FaExclamationCircle } from 'react-icons/fa
 import './Contact.css'
 import { toast } from 'react-toastify'
 
+const API_URL = import.meta.env.VITE_API_URL
+
 function Contact() {
     const [formData, setFormData] = useState({
         name: '',
@@ -82,13 +84,19 @@ function Contact() {
 
         setFormStatus({ submitting: true, submitted: false, error: false })
 
+
+
         try {
+
             // TODO: Replace with your actual API endpoint
-              await fetch(`meta.env.${VITE_API_URL}/api/contact`, {
+             const response = await fetch(`${API_URL}/api/contact`, {
                      method: 'POST',
                      headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(formData)
              })
+             if (!response.ok) {
+                throw new Error("failed to submit form");
+             }
 
             // Simulate API call
             //await new Promise(resolve => setTimeout(resolve, 1500))
