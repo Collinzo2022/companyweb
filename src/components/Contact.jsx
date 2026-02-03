@@ -98,12 +98,6 @@ function Contact() {
                 throw new Error("failed to submit form");
              }
 
-            // Simulate API call
-            //await new Promise(resolve => setTimeout(resolve, 1500))
-
-            // Log to console (remove in production once API is connected)
-            console.log('Form submitted:', formData)
-
             setFormStatus({ submitting: false, submitted: true, error: false })
             setFormData({ name: '', email: '', message: '' })
 
