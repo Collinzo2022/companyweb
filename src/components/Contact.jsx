@@ -84,14 +84,14 @@ function Contact() {
 
         try {
             // TODO: Replace with your actual API endpoint
-              //  await fetch(`meta.env.${VITE_API_URL}/api/contact`, {
-            //     method: 'POST',
-            //     headers: { 'Content-Type': 'application/json' },
-            //     body: JSON.stringify(formData)
-            // })
+              await fetch(`meta.env.${VITE_API_URL}/api/contact`, {
+                     method: 'POST',
+                     headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(formData)
+             })
 
             // Simulate API call
-            await new Promise(resolve => setTimeout(resolve, 1500))
+            //await new Promise(resolve => setTimeout(resolve, 1500))
 
             // Log to console (remove in production once API is connected)
             console.log('Form submitted:', formData)
